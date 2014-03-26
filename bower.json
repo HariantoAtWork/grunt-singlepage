@@ -1,0 +1,16 @@
+{
+  "name": "singlepage",
+  "dependencies": {
+    "bootstrap": null,
+    "jquery-autosize": null,
+    "jquery.lazyload": null,
+    "mixitup": null,
+    "swipebox": null,
+    "nivo-slider": null,
+    "knockoutjs": null,
+    "knockout-mapping": null,
+    "less.js": null,
+    "font-awesome": null,
+    "Retina-sprites-for-Compass": "*"
+  }
+}
