@@ -16,5 +16,8 @@ sed '/variables/!s|@import "|@import "../../vendor/bootstrap/less/|g' $ROOT_DIR/
 cd $ROOT_DIR
 
 grunt less concat uglify
+echo "DONE task"
 # remove git origin
 git remote remove origin
+# remove 4 lines end of this file
+cat first_install_dependencies.sh | tail -r | tail -n +4 | tail -r > first_install_dependencies.sh
