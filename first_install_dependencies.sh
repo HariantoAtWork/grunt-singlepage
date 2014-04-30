@@ -16,3 +16,5 @@ sed '/variables/!s|@import "|@import "../../vendor/bootstrap/less/|g' $ROOT_DIR/
 cd $ROOT_DIR
 
 grunt less concat uglify
+# remove git origin
+git remote remove origin
